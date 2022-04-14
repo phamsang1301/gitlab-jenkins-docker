@@ -1,0 +1,10 @@
+---
+- name: Install Jenkins & Gitlab
+  hosts: all
+  become: true  
+  roles:
+    - role-docker
+    - role-jenkins
+    - role-gitlab 
+    
+    

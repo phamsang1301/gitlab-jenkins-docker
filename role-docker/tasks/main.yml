@@ -36,5 +36,5 @@
         update_cache: true
 
     - name: Install Docker Module for Python
-      pip:
+      pip3:
         name: docker

@@ -34,7 +34,9 @@
         name: docker-ce
         state: latest
         update_cache: true
-
+    - name: install python-pip
+      apt:
+        name: python-pip
     - name: Install Docker Module for Python
       pip:
         name: docker
